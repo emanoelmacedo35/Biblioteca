@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald';
+}
+
+body {
+    background-color: #012615;
+    width: 100%;
+    height: 100%;
+    color: #ffff;
+}
+/* Header // NAV -------------------------------------------------- */
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('Componentes/CHROMAKOPIA-2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+header nav {
+    background-color: #012615;
+    width: 100%;
+    height: 12%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 36px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+header nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5% 0 5%;
+    gap: 15%;
+}
+
+header nav div a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+header nav div a:hover{
+    color: #147335;
+    transition: 0.5s;
+}
+
+/* PRIMEIRA SECTION -------------------------------------------------- */
+
+.section-one {
+    width: 100%;
+    height: 80vh;
+    background-image: url('Componentes/CHROMAKOPIAGIF.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-one div {
+    width: 50%;
+}
+
+.section-one div h1 {
+    font-size: 64px;
+}
+
+.section-one div h2 {
+    text-align: justify;
+}
+
+/* SEGUNDA SECTION -------------------------------------------------- */
+
+.section-two {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #012615;
+}
+
+.section-two h1{
+    font-size: 40px;
+}
+
+.section-two-card{
+    width: 85%;
+    height: 70%;
+    gap: 12%;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: #147335;
+}
+
+.section-two-card img{
+    width: 30%;
+    border-radius: 2%;
+}
+
+.section-two-card div{
+    width: 40%;
+    text-align: justify;
+}
+
+.section-two-card div p{
+    font-size: 20px;
+}
+
+/* TERCEIRA SECTION -------------------------------------------------- */
+
+.section-three {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('Componentes/CHROMAKOPIA_3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 60%;
+}
+
+.section-three div h1 {
+    font-size: 64px;
+}
+
+/* QUARTA SECTION -------------------------------------------------- */
+
+.section-four {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-four-div-one{
+    font-size: 36px;
+    width: 100%;
+    padding: 5% 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-four-cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.section-four-cards article{
+    width: 40%;
+    height: 80%;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #147335;
+}
+
+.section-four-cards article img{
+    padding: 7% 0 0 0;
+    border-radius: 2%;
+}
+
+.section-four-cards article div{
+    width: 90%;
+    height: 80%;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.section-four-cards article div img{
+    width: 80%;
+}
+
+.img-card-two{
+    width: 80%;
+    height: 43.2%;
+}
+
+.section-four-cards article div h1{
+    text-align: start;
+    width: 100%;
+}
+
+.section-four-cards article div a{
+    text-align: end;
+    width: 100%;
+    color: #013d21;
+}
+
+.section-four-cards article div a:hover{
+    color: #012615;
+    transition: 0.5s;
+}
+
+/* FOOTER ---------------------------------------------------- */
+
+footer{
+    width: 100%;
+    height: 10vh;
+    gap: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #147335;
+}
+
+footer a{
+    color: #013d21;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #012615;
+    transition: 0.5s;
+}
